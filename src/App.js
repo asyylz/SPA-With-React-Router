@@ -19,15 +19,18 @@ import ProductDetailPage from "./pages/ProductDetail";
 
 //const router = createBrowserRouter(routeDefinitions);
 
+// If a path starts with a slash, it is an absolute path.
+// If we removing a slash it turns into a relative path.
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
     errorElement: <ErrorElement />,
     children: [
-      { path: "/", element: <HomePage /> },
-      { path: "/products", element: <ProductsPage /> },
-      { path: "/products/:productId", element: <ProductDetailPage /> },
+      { path: "", element: <HomePage /> },
+      { path: "products", element: <ProductsPage /> },
+      { path: "products/:productId", element: <ProductDetailPage /> },
     ],
   },
 ]);
