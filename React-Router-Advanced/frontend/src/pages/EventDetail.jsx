@@ -14,7 +14,7 @@ export default function EventDetailPage() {
 export async function loader({ request, params }) {
   const id = params.id;
 
-  const response = await fetch("http://localhost:8080/events" + id);
+  const response = await fetch("http://localhost:8080/events/" + id);
   if (!response.ok) {
     throw json(
       { message: "Could not load fetch details for selected event" },
