@@ -4,7 +4,7 @@ export default function EventDetailPage() {
   return (
     <>
       <h1>Event Detail Page</h1>
-      <p>{params.id}</p>
+      <p>Event Id:{params.id}</p>
       <Link to="edit"> Edit Event</Link>
     </>
   );
