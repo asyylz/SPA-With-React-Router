@@ -23,7 +23,9 @@ export async function loader() {
   const response = await fetch("http://localhost:8080/events");
 
   if (!response.ok) {
-    return { isError: true, message: "Couldn't load events" };
+    //return { isError: true, message: "Couldn't load events" };
+
+    throw { message: "Couldn't load event" };
   } else {
     return response;
   }
