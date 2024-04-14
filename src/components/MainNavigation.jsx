@@ -17,7 +17,12 @@ function MainNavigation() {
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
-              end 
+              end
+              // we can do this inline style as well
+              // style={({ isActive }) => ({
+              //   textAlign: isActive ? "center" : "left",
+              // })}
+              
               // This end property indicates that this link should only be considered active if the currently active route ends with this path after the URL.
             >
               Home
