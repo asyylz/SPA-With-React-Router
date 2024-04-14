@@ -50,6 +50,7 @@ function App() {
             },
             {
               path: ":id",
+              id:'event-detail',
               loader: eventDetailLoader,
               children: [
                 {
@@ -60,7 +61,6 @@ function App() {
               ],
             },
             { path: "new", element: <NewEventPage /> },
-            { path: ":id/edit", element: <EditEventPage /> },
           ],
         },
       ],
