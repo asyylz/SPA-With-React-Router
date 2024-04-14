@@ -26,7 +26,6 @@ function EventsNavigation() {
               New Event
             </NavLink>
           </li>
-          x
         </ul>
       </nav>
     </header>
