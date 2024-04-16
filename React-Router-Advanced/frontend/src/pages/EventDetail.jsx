@@ -26,8 +26,6 @@ export default function EventDetailPage() {
   );
 }
 async function loadEvent(id) {
-  const id = params.id;
-
   const response = await fetch('http://localhost:8080/events/' + id);
   if (!response.ok) {
     throw json(
