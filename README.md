@@ -48,5 +48,32 @@
                 cd SPA-With-React-Router
             </code>
         </pre>
+        3.Install dependencies:
+        <pre>
+            <code>
+                npm install
+            </code>
+        </pre>
+        4.Start the development server:
+        <pre><code>npm start</code></pre>
+    </section>
+    5.Open your browser and visit http://localhost:3000 to view the application.
+
+    <section>
+        <h1>Useage</h1>
+        <ul>
+            <li>
+                <u><b>Event Creation:</b></u>
+                Click on the "Create Event" button to create a new event. Fill in the required details and submit the form.
+            </li>
+            <li>
+                <u><b>Event Editing:</b></u>
+                Navigate to the event details page and click on the "Edit" button to modify event information.
+            </li>
+            <li>
+                <u><b>Listing Events:</b></u>
+                Access the events listing page to view all available events. Use filters or search functionality to find specific events.
+            </li>
+        </ul>
     </section>
 </body>
