@@ -58,7 +58,6 @@
         <pre><code>npm start</code></pre>
     </section>
     5.Open your browser and visit http://localhost:3000 to view the application.
-
     <section>
         <h1>Useage</h1>
         <ul>
