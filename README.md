@@ -36,5 +36,17 @@
             </li>
         </ul>
     </section>
-
+    <section>
+        <h1>Installation</h1>
+        <p>1.To run the application locally, follow these steps:</p>
+        <pre>
+            <code>git clone https://github.com/asyylz/SPA-With-React-Router.git</code>
+        </pre>
+        <p>2.Navigate to the project directory:</p>
+        <pre>
+            <code>
+                cd SPA-With-React-Router
+            </code>
+        </pre>
+    </section>
 </body>
