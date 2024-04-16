@@ -86,21 +86,16 @@
             <li>Other relevant technologies</li>
         </ol>
     </section>
-    <section>
-        <h1>License</h1>This project is licensed under the MIT License.
-    </section>
-    <section class="notes">
-        <strong>
-            <h3>Notes:</h3>
-        </strong>
-        This project was created as part of an educational course on Udemy and is intended for learning purposes only.
-        All credit for the project idea and implementation goes to the course instructors and authors.
-    </section>
     <footer>
         <h1>Contributing</h1>
         <p>Contributions to the project are welcome! If you find any issues or have suggestions for improvements, please
             feel free to open an issue or submit a pull request.</p>
         <h1>License</h1>
         <p>This project is licensed under the MIT License.</p>
+        <strong>
+            <h3>Notes:</h3>
+        </strong>
+        This project was created as part of an educational course on Udemy and is intended for learning purposes only.
+        All credit for the project idea and implementation goes to the course instructors and authors.
     </footer>
 </body>
