@@ -63,7 +63,8 @@
         <ul>
             <li>
                 <u><b>Event Creation:</b></u>
-                Click on the "Create Event" button to create a new event. Fill in the required details and submit the form.
+                Click on the "Create Event" button to create a new event. Fill in the required details and submit the
+                form.
             </li>
             <li>
                 <u><b>Event Editing:</b></u>
@@ -71,8 +72,35 @@
             </li>
             <li>
                 <u><b>Listing Events:</b></u>
-                Access the events listing page to view all available events. Use filters or search functionality to find specific events.
+                Access the events listing page to view all available events. Use filters or search functionality to find
+                specific events.
             </li>
         </ul>
     </section>
+    <section>
+        <h1>Technologies Used</h1>
+        <ol>
+            <li>React</li>
+            <li>React Router</li>
+            <li>Backend Technology</li>
+            <li>Other relevant technologies</li>
+        </ol>
+    </section>
+    <section class="notes">
+        <strong>
+            <h3>Notes:</h3>
+        </strong>
+        This project was created as part of an educational course on Udemy and is intended for learning purposes only.
+        All credit for the project idea and implementation goes to the course instructors and authors.
+    </section>
+    <section>
+        <h1>License</h1>This project is licensed under the MIT License.
+    </section>
+    <footer>
+        <h2>Contributing</h2>
+        <p>Contributions to the project are welcome! If you find any issues or have suggestions for improvements, please
+            feel free to open an issue or submit a pull request.</p>
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License.</p>
+    </footer>
 </body>
